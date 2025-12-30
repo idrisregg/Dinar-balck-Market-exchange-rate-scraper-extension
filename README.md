@@ -4,7 +4,7 @@ Algerian dinar exchange rate on the parallel market .
 
 ## Features
 
-- Scrapes Date and Creates API from most Used blackmarket exchange site
+- Scrapes Data and Creates API from most Used blackmarket exchange site
 - Displays Rates of Three most important Currencies 
 
 ## Development Setup
