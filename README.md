@@ -11,13 +11,17 @@ Algerian dinar exchange rate on the parallel market .
 
 1. Install dependencies:
    ```
-   npm install (for scrap folder also)
+   npm install (for scrap folder also) 
    ```
 
 2. Build the extension:
    ```
    npm run build
    ```
+-PS : ALWAYS Run this Command on Scraper folder to start Server
+```
+   npm start
+```
 
 ## Loading the Extension in Chrome
 
