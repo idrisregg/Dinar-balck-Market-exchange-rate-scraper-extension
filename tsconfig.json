@@ -9,5 +9,5 @@
     "skipLibCheck": true,
     "types": ["chrome"]
   },
-  "include": ["*.ts"]
+  "include": ["*.ts", "src/popup.ts"]
 }

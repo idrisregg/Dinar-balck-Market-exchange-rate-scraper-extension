@@ -21,4 +21,3 @@ iconSizes.forEach(size => {
   }
 });
 
-console.log('Files copied successfully!');
