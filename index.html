@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DZD Exchange Rates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>DZD Exchange Rates</h1>
+      <p class="source">Black Market Rates</p>
+    </div>
+
+    <div id="loading" class="loading">Loading rates...</div>
+    <div id="error" class="error" style="display: none;"></div>
+
+    <div id="rates" class="rates" style="display: none;">
+      <div class="currency-card">
+        <div class="currency-header">
+          <span class="currency-code">EUR</span>
+          <span class="currency-name">Euro</span>
+        </div>
+        <div class="rate-row">
+          <div class="rate-item">
+            <span class="label">Buy</span>
+            <span class="value" id="eurBuy">-</span>
+          </div>
+          <div class="rate-item">
+            <span class="label">Sell</span>
+            <span class="value" id="eurSell">-</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="currency-card">
+        <div class="currency-header">
+          <span class="currency-code">USD</span>
+          <span class="currency-name">US Dollar</span>
+        </div>
+        <div class="rate-row">
+          <div class="rate-item">
+            <span class="label">Buy</span>
+            <span class="value" id="usdBuy">-</span>
+          </div>
+          <div class="rate-item">
+            <span class="label">Sell</span>
+            <span class="value" id="usdSell">-</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="currency-card">
+        <div class="currency-header">
+          <span class="currency-code">CAD</span>
+          <span class="currency-name">Canadian Dollar</span>
+        </div>
+        <div class="rate-row">
+          <div class="rate-item">
+            <span class="label">Buy</span>
+            <span class="value" id="cadBuy">-</span>
+          </div>
+          <div class="rate-item">
+            <span class="label">Sell</span>
+            <span class="value" id="cadSell">-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span id="updated">-</span>
+      <button id="refresh">↻ Refresh</button>
+    </div>
+  </div>
+
+  <script type="module" src="popup.ts"></script>
+</body>
+</html>

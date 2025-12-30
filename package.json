@@ -1,0 +1,16 @@
+{
+  "name": "dzd-exchange-extension",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npm run copy",
+    "copy": "node copy-files.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DZD Exchange Rates",
+  "version": "1.0.0",
+  "description": "Live black market exchange rates for DZD (Dinar Algérien)",
+  "permissions": [],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

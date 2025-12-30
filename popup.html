@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DZD Exchange Rates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>DZD Exchange Rates</h1>
+      <p class="source">Black Market Rates</p>
+    </div>
+
+    <div id="loading" class="loading">Loading rates...</div>
+    <div id="error" class="error" style="display: none;">Error loading rates</div>
+
+    <div id="rates" class="rates">
+      <div class="rate-box eur">
+        <div class="currency-name">EUR</div>
+        <div class="rate-group">
+          <div class="rate-item">
+            <div class="label">Buy</div>
+            <div class="value" id="eurBuy">-</div>
+          </div>
+          <div class="rate-item">
+            <div class="label">Sell</div>
+            <div class="value" id="eurSell">-</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rate-box usd">
+        <div class="currency-name">USD</div>
+        <div class="rate-group">
+          <div class="rate-item">
+            <div class="label">Buy</div>
+            <div class="value" id="usdBuy">-</div>
+          </div>
+          <div class="rate-item">
+            <div class="label">Sell</div>
+            <div class="value" id="usdSell">-</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rate-box cad">
+        <div class="currency-name">CAD</div>
+        <div class="rate-group">
+          <div class="rate-item">
+            <div class="label">Buy</div>
+            <div class="value" id="cadBuy">-</div>
+          </div>
+          <div class="rate-item">
+            <div class="label">Sell</div>
+            <div class="value" id="cadSell">-</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span id="updated">-</span>
+      <button id="refresh">↻ Refresh</button>
+    </div>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
