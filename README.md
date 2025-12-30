@@ -18,7 +18,7 @@ Algerian dinar exchange rate on the parallel market .
    ```
    npm run build
    ```
--PS : ALWAYS Run this Command on Scraper folder to start Server
+-PS : ALWAYS Run this Command on Scrap folder to start Server
 ```
    npm start
 ```
