@@ -25,17 +25,3 @@ Algerian dinar exchange rate on the parallel market .
 2. Enable "Developer mode" using the toggle in the top right
 3. Click "Load unpacked" and select the `dist` directory from this project
 4. The extension should now appear in your list of extensions
-
-## Project Structure
-
-- `src/` - TypeScript source files
-  - `background.ts` - Background script
-  - `content.ts` - Content script
-  - `popup.ts` - Popup script
-  - `popup.html` - Popup HTML
-  - `popup.css` - Popup styles
-- `dist/` - Built extension files (generated)
-- `vite.config.ts` - Vite configuration
-- `tsconfig.json` - TypeScript configuration
-- `tsconfig.node.json` - TypeScript configuration for Node.js files
-- `manifest.json` - Chrome extension manifest
